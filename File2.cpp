@@ -25,6 +25,7 @@ int main() {
     cout << "Jumlah Perulangan = " << PerulanganWhile << endl;
     
     //perulangan Do While
+    cout << endl;
     cout << "Perulangan Do While " << endl;
     do
     {
@@ -34,5 +35,4 @@ int main() {
     } while (x < 7);
     cout << "Nilai X Terakhir = " << x << endl;
     cout << "Jumlah Perulangan Do While = " << perulanganDo << endl;
-    
 }
