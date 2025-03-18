@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int Pilihan;
-    
+    do{
     cout << "===Menu===" << endl;
     cout << "1. Menghitung Luas Persegi" << endl;
     cout << "2. Menghitung Luas Lingkaran" << endl;
@@ -25,4 +25,5 @@ int main() {
         cout << "Pilihan Anda Salah" << endl;
         break;
     }
+    }while (Pilihan != 3);
 }
